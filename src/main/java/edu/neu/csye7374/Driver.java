@@ -11,7 +11,9 @@ public class Driver {
 		System.out.println("============Main Execution Start===================\n\n");
 
          //Add your code in between these two print statements
-		 
+		 // Create an instance of StockMarket
+		StockMarket.getInstance().demo();
+
 		System.out.println("\n\n============Main Execution End===================");
 	}
 
